@@ -1,11 +1,5 @@
 ## Sentiment-Analysis-Tool
 
- Author: SAKSHI AND TEAM
-
-(TEAM - JAYAL, MAYANK, RAJ, SAKSHI, VISHWAS)
-
-
-## Sentiment & Emotion Analysis using NLP:
 This project is designed to analyze and visualize the sentiment and emotional tone of textual data using Natural Language Processing (NLP) techniques.By combining rule-based analysis and machine learning-based scoring, this tool delivers both quantitative and qualitative insights, making it useful for academic research, mental health journaling, brand sentiment tracking, or content evaluation.
 
 
@@ -78,13 +72,13 @@ nltk.download('vader_lexicon')
 ### Project Structure:
 
 ```
-📂 sentiment-analysis
- ├── 📄 Sentiment_Analysis.ipynb    # Main notebook
- ├── 📄 sentiment_analysis.py       # Script version
- ├── 📄 GenZ.txt                    # Input text file
- ├── 📄 emotions.txt                # Word-emotion dictionary
- ├── 📂 results/                    # Auto-generated visualizations
- ├── 📄 README.md                   # Documentation
+sentiment-analysis
+ ├── Sentiment_Analysis.ipynb    # Main notebook
+ ├── sentiment_analysis.py       # Script version
+ ├── GenZ.txt                    # Input text file
+ ├── emotions.txt                # Word-emotion dictionary
+ ├── results/                    # Auto-generated visualizations
+ ├── README.md                   # Documentation
 ```
 
 
@@ -93,11 +87,9 @@ Sentiment Result: **Positive / Neutral / Negative**
 
 TextBlob Score: e.g., **Polarity = 0.52**
 
--Emotion Bar Chart
-
--Emotion Word Cloud
-
--Emotion Pie Chart
+- Emotion Bar Chart
+- Emotion Word Cloud
+- Emotion Pie Chart
 
 
 ### Color Scheme Explained:
@@ -112,49 +104,38 @@ Visual themes adapt based on the final sentiment to enhance clarity.
 
 
 ### Features:
--Text preprocessing & tokenization
-
--Dual sentiment analysis (VADER + TextBlob)
-
--Customizable emotion dictionary
-
--Sentiment-based dynamic color theming
-
--Informative visualizations
-
--Modular and clean code structure
-
--Best performance in **Google Colab** (no configuration required)
+- Text preprocessing & tokenization
+- Dual sentiment analysis (VADER + TextBlob)
+- Customizable emotion dictionary
+- Sentiment-based dynamic color theming
+- Informative visualizations
+- Modular and clean code structure
+- Best performance in **Google Colab** (no configuration required)
 
 
 ### Future Enhancements:
 
-Add **BERT/Transformer-based models** for deep sentiment detection
-
-Build a **Streamlit web app** for live sentiment/emotion input
-
-Connect with **Twitter, Reddit** for real-time scraping
-
-Plug into **chatbots or mental health tools** for mood tracking
-
+- Add **BERT/Transformer-based models** for deep sentiment detection
+- Build a **Streamlit web app** for live sentiment/emotion input
+- Connect with **Twitter, Reddit** for real-time scraping
+- Plug into **chatbots or mental health tools** for mood tracking
 
 ### Applications:
 
-Customer feedback analysis
-
-Product or movie review sentiment monitoring
-
-Emotion recognition in therapy journals
-
-Sentiment tracking in news or tweets
-
-Emotion-aware chatbot conversations
-
+- Customer feedback analysis
+- Product or movie review sentiment monitoring
+- Emotion recognition in therapy journals
+- Sentiment tracking in news or tweets
+- Emotion-aware chatbot conversations
 
 ### Output:
 
-![Image](https://github.com/user-attachments/assets/a54b3037-27b2-4a4e-93e1-41aba36f61b8)
-
-![Image](https://github.com/user-attachments/assets/183f82d3-9eb4-439f-830d-83a847f82f47)
-
 ![Image](https://github.com/user-attachments/assets/d14b3c04-7835-447b-ad8b-981143d86e8e)
+
+
+### Team Members
+
+- Sakshi Makwana
+- Jayal Shah
+- Raj Patel
+- Maynak Jangid
